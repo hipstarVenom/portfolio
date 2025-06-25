@@ -28,17 +28,6 @@ document.addEventListener("DOMContentLoaded", () => {
       const re = /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/;
       return re.test(String(email).toLowerCase());
     }
-  
-    // Optional: reveal animation on scroll (basic)
-    // const revealElements = document.querySelectorAll('.section');
-    // const observer = new IntersectionObserver(entries => {
-    //   entries.forEach(entry => {
-    //     if (entry.isIntersecting) {
-    //       entry.target.classList.add('visible');
-    //     }
-    //   });
-    // }, { threshold: 0.1 });
-    // revealElements.forEach(el => observer.observe(el));
   });
   
    
